@@ -1,0 +1,42 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 100%;
+    max-width: 400px;
+    height: 610px;
+    flex: auto;
+    margin: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+
+.card img{
+    width: 100%;
+}
+
+ .cardText, .cardTitle{
+    color: green;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.cardText span, .cardTitle span{
+    color: black;
+}
+
+.search {
+    display: flex;  
+    justify-content: center; 
+}
+
+.search input{
+    max-width: 50%;
+    margin: 20px 0;
+    height: 40px;
+    border: green 1.5px solid;
+}
